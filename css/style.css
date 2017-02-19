@@ -1,0 +1,123 @@
+h2, h1 {
+  text-align: center;
+  font-family: "Lucida Console", Monaco, monospace;
+  color: #663300;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+section {
+  height: 150vh;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color:  #A52A2A;
+  background-color: #DEB887;
+  
+}
+
+footer {
+  background-color: white;
+  color: black;
+  
+  padding-top: 0px;
+  padding-bottom: 0px;
+  width: 100%;
+  bottom: 0;
+  position: relative;
+  text-align: center;
+  font-family: "Times New Roman", Georgia, Serif;
+}
+
+/*Calculator */
+.red {
+  background-color: #00008B;
+  border-color: #00008B;
+}
+
+.plus {
+  margin-top: -23px;
+}
+
+button {
+  background-color: grey;
+  border-color: red;
+  width: 100%;
+  padding: 20px 30px;
+}
+
+.calci {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-color: #999;
+  margin: 0 auto;
+}
+
+.calci td {
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 14px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: #999;
+  color: #444;
+  background-color: #F7FDFA;
+}
+
+.calci th {
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 20px 20px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: #999;
+  color: #fff;
+  background-color: #26ADE4;
+}
+
+
+
+.calci .screen {
+  font-size: 25px;
+  font-family: "Arial", Helvetica, sans-serif;
+  background-color: #00CED1;
+  color: black;
+  text-align: right;
+  vertical-align: top;
+  height: 70px;
+}
+
+
+
+
+
+.calci .numbers {
+  font-weight: bold;
+  font-size: 16px;
+  font-family: "Lucida Console", Monaco, monospace;
+  background-color: white;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: top;
+}
+
+@media screen and (max-width: 767px) {
+  .calci {
+    width: auto !important;
+  }
+
+  .calci col {
+    width: auto !important;
+  }
+
+  .calci-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: auto 0;
+  }
+}
